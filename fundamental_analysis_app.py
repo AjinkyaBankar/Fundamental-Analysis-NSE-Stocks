@@ -46,7 +46,7 @@ if url:
     price_df = s_name.history(period="1000mo")
     if len(price_df) == 0:
         print('Ticker doesnt exists')
-        st.warning('Ticker doesnt exist on Yahoo Finance. Please try other stocks. Thank you for understanding!', icon="🚨")
+        st.warning('Unable to fetch this ticker's data. Please try other stocks. Thank you for understanding!', icon="🚨")
         sys.exit()
     else:
         st.warning('Working on your request..... Fetching data..... Thanks for your patience!')
