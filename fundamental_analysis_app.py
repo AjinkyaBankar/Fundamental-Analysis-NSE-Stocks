@@ -158,7 +158,7 @@ if url:
             fig.update_layout(bargap=0.5)
 
             # set the axis titles and layout
-            fig.update_layout(title=nse_name, xaxis_title='Date', yaxis_title="Rs.", yaxis2_title="Rs. Cr.")
+            fig.update_layout(title=nse_name, xaxis_title='Date', yaxis_title="Stock Price (Rs.)", yaxis2_title="Indicator (Rs. Cr.)")
 
             fig.update_traces(visible="legendonly", selector=lambda t: not t.name in ['Price', 'Total Reserves and Surplus'])
 
