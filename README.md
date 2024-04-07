@@ -6,7 +6,7 @@ This project employs comprehensive fundamental analysis techniques to uncover va
 I scrape the fundamentals of the companies using the beautifulsoup package. Also, use Yahoo Finance API to retrieve historical stock prices. The fundamentals and historical prices are plotted on the same graph, which helps to analyze the company's growth.
 
 ## How to Use:
-Access the Web App: Visit the [web app link](https://ajinkyabankar-fundamental-analysis-app-i11dik.streamlit.app){:target="_blank"} to access the Stock Fundamental Analysis Web App.
+Access the Web App: Visit the [web app link](https://ajinkyabankar-fundamental-analysis-app-i11dik.streamlit.app) to access the Stock Fundamental Analysis Web App.
 
 Select Company: Choose a company listed on the National Stock Exchange (NSE) to analyze its fundamentals.
 
